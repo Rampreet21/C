@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-int main() 
-{
-    printf("Hello!!");
-    printf("HIii");
+int main() {
+    printf("  *****  \n");
+    printf(" *     * \n");
+    printf("*  . .  *\n");
+    printf("*   ^   *\n");
+    printf(" * \\_/ * \n");
+    printf("  *****  \n");
+    return 0;
 }
