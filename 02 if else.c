@@ -20,4 +20,5 @@ int main ()
     else{
         printf("you entered a small value! (%d)", a);
     }
+    return 0;
 }

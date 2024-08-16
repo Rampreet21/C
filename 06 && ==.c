@@ -2,7 +2,7 @@
 // #include<conio.h>
 int main()
 {
-    int a= 1, b= 1;
+    int a= 1, b= 0;
     printf("%d\n", a&&b);
     printf("%d\n", a||b);
     printf("%d\n", !a);
