@@ -3,11 +3,11 @@
 int main(){
 
     int a=0, b;
-    printf("How Many Times Do You Wanna Print:");
+    printf("Enter Value: ");
     scanf("%d", &b);
     while (a<b){
-        printf("Happy Birthday!!\n");
-        a = a+1;
+        printf("The Value of I is %d\n", a);
+        a++;
     }
 
     return 0;
