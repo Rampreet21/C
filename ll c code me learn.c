@@ -16,7 +16,7 @@ int main()
     int d=12, e=6, f=2, g=20, h=5, i;
     i = d*e/f+g-h;
     printf("\n2. sum 12 * 6 / 2 + 20 - 5 = %d", i);
-
+ 
                 //3rd code scanf (store input value)
     int L, B, T;
     printf("\n!Area of Rectangle!");
