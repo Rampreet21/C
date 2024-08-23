@@ -5,7 +5,7 @@
 int main()
 {
     srand(time(0));
-    int randomno = (rand() % 10) + 1;
+    int randomno = (rand() % 100) + 1;
     int guessno;
     int guesses = 1;
     do
@@ -22,7 +22,7 @@ int main()
         }
         else
         {
-            printf("    !!Congrats!!\nYou Guess Right Number in %d Guesses", guesses);
+            printf("\n        !!Congrats!!\nYou Guessed The Right Number in %d Guesses\n", guesses);
         }
         guesses++;
     } while (guessno != randomno);
