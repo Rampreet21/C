@@ -8,26 +8,8 @@ int main()
     int randomno = (rand() % 10) + 1;
     int guessno;
     int guesses = 1;
-    // do
-    // {
-        // printf("\nGuess number: ");
-        // scanf("%d", &guessno);
-        // if (guessno < randomno)
-        // {
-        //     printf("Higher Number!! ");
-        // }
-        // else if (guessno > randomno)
-        // {
-        //     printf("Less Number!!");
-        // }
-        // else
-        // {
-        //     printf("    !!Congrats!!\nYou Guess Right Number in %d Guesses", guesses);
-        // }
-        // guesses++;
-    // } 
-    
-    while (guessno != randomno){
+    do
+    {
         printf("\nGuess number: ");
         scanf("%d", &guessno);
         if (guessno < randomno)
@@ -43,7 +25,6 @@ int main()
             printf("    !!Congrats!!\nYou Guess Right Number in %d Guesses", guesses);
         }
         guesses++;
-    }
-
+    }while (guessno!=randomno);
     return 0;
 }
