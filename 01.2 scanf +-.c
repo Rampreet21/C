@@ -5,8 +5,7 @@ int main ()
     char name[10];
     int age;
     char add[124];
-    double con;
-    // unsigned long con;          // long long con; ezi (%lld)
+    long long con;
     printf("Enter Your Information\n");
     printf("NAME: ");
     scanf("%s", name);
@@ -15,9 +14,9 @@ int main ()
     printf("ADDRESS: ");
     scanf("%s", add);
     printf("CONTACT: ");
-    scanf("%lf", &con);
+    scanf("%lld", &con);
     printf("     %s Information\n", name);  
-    printf("NAME: %s\nAGE: %d\nADDRESS: %s\nCONTACT: %.0lf", name, age, add, con);  
+    printf("NAME: %s\nAGE: %d\nADDRESS: %s\nCONTACT: %lld", name, age, add, con);  
 
     return 0;
 }
