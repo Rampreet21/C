@@ -1,11 +1,12 @@
 #include <stdio.h>
-
+#include <unistd.h>
 int main() {
-    int a=0;
+    int a=1;
 
-    while (0<1){
-        printf("The Value of I is %d\n",a);
+    while (0<2){
+        printf("\rThe Value of I is %d",a);
         a++;
+        sleep(1);
     }
     
     return 0;
