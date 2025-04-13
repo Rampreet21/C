@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-void sum(int *a, int *b);
+void swapfunction(int *x, int *y);
 
 int main()
 {
-    int x = 10, y = 20;
-    sum(x,y);
-    printf("%d %d", x, y);
+    int a = 100, b = 200;
+
+    swapfunction(&a, &b);
+    printf("%d\n",a);
+    printf("%d",b);
     return 0;
-
 }
-
-void sum(int a, int b)
+void swapfunction(int *x, int *y)
 {
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
+    int x_store;
+    x_store = *x;
+    *x = *y;
+    *y = x_store;
 }
-
